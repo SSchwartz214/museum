@@ -22,8 +22,14 @@ class MuseumTest < Minitest::Test
 
   def test_cost_of_exhibit
     museum = Museum.new
-    assert_equal
+
+    assert_equal ()
   end
 
+  def test_revenue
+    museum = Museum.new(10, 10, 0, 0, 10)
+
+    assert_equal 30, result
+  end
 
 end
