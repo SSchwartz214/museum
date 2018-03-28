@@ -19,5 +19,11 @@ class MuseumTest < Minitest::Test
 
     assert_equal "Gems and Minerals", museum.exhibits
   end
-  
+
+  def test_cost_of_exhibit
+    museum = Museum.new
+    assert_equal
+  end
+
+
 end
