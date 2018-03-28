@@ -1,22 +1,21 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/Users/sethsmacbookpro/turing/1module/classwork/museum/lib/patron.rb": [
+      "/Users/sethsmacbookpro/turing/1module/classwork/museum/lib/Museum.rb": [
         1,
         1,
         null,
         null,
+        null,
         1,
-        2,
-        2,
-        null,
-        null,
+        3,
+        3,
         null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1522252289
+    "timestamp": 1522253764
   }
 }

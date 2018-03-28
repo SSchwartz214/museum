@@ -6,8 +6,6 @@ class Patron
     @name = name
     @interests = interests
   end
+  # binding.pry
 
-  # # def add_interest
-  # #   interest = "Dead Sea Scrolls"
-  # end
 end

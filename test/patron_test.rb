@@ -3,13 +3,13 @@ require './lib/patron'
 
 class PatronTest < Minitest::Test
   # def test_it_exists
-  #   patron = Patron.new(name)
+  #   patron = Patron.new
   #
   #   assert_instance_of Patron, patron
   # end
 
   def test_it_has_a_name
-    patron = Patron.new("Bob")
+    patron = Patron.new("Bob", "interest")
 
     assert_equal "Bob", patron.name
   end
@@ -21,8 +21,8 @@ class PatronTest < Minitest::Test
   end
 
   def test_it_has_another_interest
-    patron = Patron.new("Dead Sea Scrolls", "Gems and Minerals")
+    patron = Patron.new("Bob", "Gems and Minerals")
 
-    assert_equal "Dead Sea Scrolls", "Gems and Minerals", patron.interests
+    assert_equal "Gems and Minerals", patron.interests
   end
 end
